@@ -65,6 +65,7 @@ Thumbs.db
 # Jekyll #
 ######################
 .jekyll-metadata
+_site
 
 
 # Node #
