@@ -1,0 +1,42 @@
+/* ###  FOOTER  #### */
+
+footer {
+  padding: 90px 0 40px 0; 
+  background-color: $tell-light-light-gray;
+  
+   h4 {margin-bottom: 30px;}
+  
+  
+   h6 {
+      font-weight: 300;
+      color: $tell-green;
+      line-height: 12px;
+      font-size: 0.9em;
+      }
+  
+   p {
+      font-size: 0.8em;
+    }
+    
+  
+   p.cookie {
+      margin-left: 1.375rem;
+    }  
+
+}//footer
+
+
+.footer-links a {
+  color: black;
+}
+
+
+
+@media #{$small-only} {
+    
+  footer {
+    text-align: center;
+  }
+}
+
+

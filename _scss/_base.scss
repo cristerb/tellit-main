@@ -1,0 +1,66 @@
+/* ###  BASE  #### */
+
+
+
+.pris {
+  color: $tell-green;
+  font-size: 0.9em;
+}
+
+
+
+strong {
+  color: black;
+}
+
+
+
+a img:hover {
+  opacity: 0.7;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+}
+
+
+.sub-nav {
+  padding-bottom: 0.25rem;
+  line-height: 2em;
+}
+
+
+.with-padding {
+  padding: 60px 0;
+}
+
+.with-padding-top {
+  padding-top: 60px;
+}
+
+.with-padding-bottom {
+  padding-bottom: 60px;
+}
+
+
+.social-icon {
+  margin-right: 6px;
+}
+
+
+.legal {
+  font-size: 0.75em; // 12px
+  color: lightgray;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  color: $tell-green;
+}
+
+
+.lysbg {
+  background-color: $tell-light-gray;
+}
+
+
+

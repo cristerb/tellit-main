@@ -1,0 +1,41 @@
+
+/* ###  ANBAFALTE PRODUKTER  #### */
+
+
+#anbefalt-container {
+  margin: 40px 0;
+  
+  
+  h3 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+ 
+
+
+
+  .product {
+   // border: 1px solid $tell-light-gray;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+
+
+      &:hover {opacity: 0.7;}
+
+      figcaption {color: $tell-green;}
+  }//product
+}//anbefalt-container
+  
+  
+  
+
+/*.new {
+  background-image: url("../img/home/anbefalt-produkter/nyhet-badge.png");
+  background-position: 100% 0;
+  background-repeat: no-repeat;
+  background-size: 60px;
+  position: relative;
+}*/

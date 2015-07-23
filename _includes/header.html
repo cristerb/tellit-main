@@ -1,0 +1,29 @@
+  
+
+  <header>    
+    <div class="contain-to-grid fixed">
+      <nav class="top-bar" data-topbar role="navigation">
+        
+      <ul class="title-area">
+        <li class="name">
+          <a href="{{site.baseurl}}/index.html"><img class="menu-logo" src="{{site.baseurl}}/img/logoer/tell-logo.svg"></a>
+        </li>
+         <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+        <li class="toggle-topbar menu-icon"><a href="#"><span>Meny</span></a></li>
+      </ul>
+
+      <section class="top-bar-section">
+        <!-- Right Nav Section -->
+        <ul class="right">
+          <li class="{% if page.url contains '/nettbutikk/' %}active{% endif %}"><a href="http://tellit.kunder.trollweb.no/">Nettbutikk</a></li>
+          <li class="{% if page.url contains '/kurs/' %}active{% endif %}"><a href="{{site.baseurl}}/kurs">Kurs</a></li>
+          <li class="{% if page.url contains '/service/' %}active{% endif %}"><a href="{{site.baseurl}}/service">Service</a></li>
+          <li class="{% if page.url contains '/student/' %}active{% endif %}"><a href="{{site.baseurl}}/student">Student</a></li>
+          <li class="{% if page.url contains '/bedrift/' %}active{% endif %}"><a href="{{site.baseurl}}/bedrift">Bedrift</a></li>
+          <li class="{% if page.url contains '/kontakt/' %}active{% endif %}"><a href="{{site.baseurl}}/kontakt">Kontakt</a></li>
+        </ul>
+      </section>
+    </nav>
+  </div>
+ </header>  
+    

@@ -1,0 +1,268 @@
+
+
+#student-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: $tell-light-light-gray;
+  padding: 1em 2em 4em 2em;
+  
+  
+  img {
+    margin-bottom: 0.8em;
+  }
+  
+  p {
+    margin-bottom: 2.5em;
+  }
+  
+  
+  h1, h2 {
+    margin-bottom: 0.6em;
+  }
+  
+  
+  @media #{$medium-up} {
+    p {
+    
+      max-width: 65%;
+    }//p
+  }//@media
+}//student-hero
+
+
+
+.action-banner {
+  text-align: center;
+  padding: 9em 0;
+  background-attachment: fixed;
+  background-image: url(../../img/student/student-rabatt-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center left;
+  border-bottom: solid 1px $tell-light-gray;
+  
+    
+    img {
+      margin-right: 1.2em;
+      padding-bottom: 1.1em;
+    }
+    
+  p {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+    h3 {
+      color: $tell-gray;
+      font-size: 2.2em;
+      margin: 0.6em 0 0.5em 0;
+      display: inline-block;
+      background: rgba(255, 255, 255, 0.7);
+      padding: 0.4em;
+      
+    }
+
+
+}//action-banner
+
+
+
+#hvorfor-mac-container{
+  
+  margin-top: 4em;
+  
+  
+  @media #{$large-up} {
+    max-width: 70%;
+  }
+  
+      h3 {
+        text-align: center;
+        color: $tell-green;
+        margin-bottom: 1.6em;
+        font-size: 3em;
+      }
+}//hvorfor-mac-container
+
+
+ul.hvorfor-mac-list {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+
+  
+  @media #{$medium-up} { 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+    }//@media
+  
+      h4 {
+        color: black;
+        font-size: 1.25em;
+      }
+
+
+      li {
+        padding: 0 1em;
+        margin-bottom: 2em;
+        list-style: none;
+
+
+        @media #{$medium-up} { 
+          flex-basis: 45%;
+        }
+  }//li
+}//ul.hvorfor-mac-list
+
+
+
+#bedrift-hero {
+ background-color: $tell-light-light-gray;
+  padding: 2em 0 6em 0;
+  text-align: center;
+  
+  img {
+    margin-bottom: 1.5em;
+  }
+  
+  p {
+     margin-bottom: 3em;
+  }
+
+}
+
+.fordeler-container {
+  margin: 5em auto;
+  color: &tell-gray;
+  max-width: 1200px;
+  
+  h2 {
+    color: $tell-green;
+    margin-bottom: 2em;
+    font-size: 3em;
+  }
+  
+  h3 {
+    font-size: 1.5em;
+    color: black;
+  }
+  
+} //fordeler-container
+
+
+
+#studentpakker-section {
+  margin: 5em 0;
+  
+
+    h2 {
+      color: $tell-green;
+      font-size: 2.7em;
+      margin-bottom: 1.7em;
+    }
+  
+    h3 {
+      color: $tell-gray;
+      font-size: 1.3em;
+    }
+
+    h4 {
+     margin-left: 20px;
+    }
+
+    p{
+     margin-left: 20px;
+     font-size: 1.1em;  
+    }
+
+    ul {
+      @include ul-med-checklist;
+
+    }
+
+    li {
+      margin-left: 20px;
+    }
+
+
+    .studentpakker-tekst{
+      margin-top: 1em;
+      display: inline-block;
+      margin: 0 auto;
+    }
+
+} //studentpakker-section
+
+
+.beats-student-banner {
+  background-color: $light-bg;
+  padding: 6em 0;
+  text-align: center;
+  
+ 
+  
+  
+  h3 {
+    color: $dark;
+    font-size: 2.7em;
+  }
+  
+  h4 {
+    color: $tell-gray;
+    font-size: 1.5em;
+  }
+  
+  p{
+    color: lighten( $tell-gray, 20% );
+    margin-bottom: 2em;  
+  }
+  
+  @media #{$large-up} { 
+  .beats-student-banner-tekst {
+    margin-top: 5em;
+  }
+} // @media
+  
+
+}
+
+
+
+#studentpriser-mac {
+  text-align: center;
+  margin: 5em 0;
+  
+  
+  h2 {
+      color: $tell-green;
+      font-size: 2.2em;
+    }
+  
+  img {
+    margin-bottom: 0.7em;
+  }
+  
+  
+  span {
+    color: $dark;
+  }
+  
+  p {
+    font-size: 0.9em;
+    margin-bottom: 0.2em;
+    text-decoration: line-through;
+    opacity: 0.4;
+  }
+  
+  .studentpris {
+    color: $tell-green;
+    font-size: 1em;
+    text-decoration: none;
+    opacity: 1;
+  }
+  
+}

@@ -1,0 +1,52 @@
+/* ###  LANDINGPAGE  #### */
+
+
+.landingpage {
+  text-align: center;
+  margin: 90px 0;
+  
+  
+    h2 {
+      margin-bottom: 40px;
+      font-size: 2.8em;
+    }
+
+
+    p {
+      line-height: 1.7em;
+      font-size: 1.2em;
+      max-width: 840px;
+      margin: 0 auto;
+      margin-bottom: 40px;
+      }  
+  
+}//landingpage
+
+
+
+.produkt-logo {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.gray-bg {
+  background-color: $gray-bg-landing;
+}
+
+
+.text-container {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+#footnote {
+  padding: 5px;
+  
+  p { 
+    font-size: 0.7em;
+    text-align: center;
+  }
+}//footnote
+
+
