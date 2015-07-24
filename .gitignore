@@ -66,6 +66,7 @@ Thumbs.db
 ######################
 .jekyll-metadata
 _site
+/css
 
 
 # Node #
