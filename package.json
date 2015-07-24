@@ -1,0 +1,28 @@
+{
+  "name": "tellit-site",
+  "version": "1.0.0",
+  "description": "Package file for tellit.no",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "cristerb.github.com"
+  },
+  "keywords": [
+    "gulp",
+    "sass",
+    "browersync",
+    "jekyll",
+    "autoprefixer"
+  ],
+  "author": "Crister Berge",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.8.0",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-sass": "^2.0.4"
+  }
+}
