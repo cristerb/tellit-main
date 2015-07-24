@@ -7,64 +7,29 @@
   text-align: center;
   background-color: $tell-light-light-gray;
   padding: 1em 2em 4em 2em;
-  
-  
+
+
   img {
     margin-bottom: 0.8em;
   }
-  
+
   p {
     margin-bottom: 2.5em;
   }
-  
-  
+
+
   h1, h2 {
     margin-bottom: 0.6em;
   }
-  
-  
+
+
   @media #{$medium-up} {
     p {
-    
+
       max-width: 65%;
     }//p
   }//@media
 }//student-hero
-
-
-
-.action-banner {
-  text-align: center;
-  padding: 9em 0;
-  background-attachment: fixed;
-  background-image: url(../../img/student/student-rabatt-bg.jpg);
-  background-repeat: no-repeat;
-  background-position: center left;
-  border-bottom: solid 1px $tell-light-gray;
-
-
-    img {
-      margin-right: 1.2em;
-      padding-bottom: 1.1em;
-    }
-
-  p {
-    max-width: 600px;
-    margin: 0 auto;
-  }
-
-    h3 {
-      color: $tell-gray;
-      font-size: 2.2em;
-      margin: 0.6em 0 0.5em 0;
-      display: inline-block;
-      background: rgba(255, 255, 255, 0.7);
-      padding: 0.4em;
-
-    }
-
-
-}//action-banner
 
 
 
@@ -119,21 +84,6 @@ ul.hvorfor-mac-list {
 }//ul.hvorfor-mac-list
 
 
-
-.page-header {
- background-color: $tell-light-light-gray;
-  padding: 2em 0 6em 0;
-  text-align: center;
-
-  img {
-    margin-bottom: 1.5em;
-  }
-
-  p {
-     margin-bottom: 3em;
-  }
-
-}
 
 .fordeler-container {
   margin: 5em auto;
