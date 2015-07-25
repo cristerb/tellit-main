@@ -120,21 +120,6 @@ ul.hvorfor-mac-list {
 
 
 
-#bedrift-hero {
- background-color: $tell-light-light-gray;
-  padding: 2em 0 6em 0;
-  text-align: center;
-
-  img {
-    margin-bottom: 1.5em;
-  }
-
-  p {
-     margin-bottom: 3em;
-  }
-
-}
-
 .fordeler-container {
   margin: 5em auto;
   color: &tell-gray;
@@ -204,37 +189,32 @@ ul.hvorfor-mac-list {
   text-align: center;
 
 
+    h3 {
+      color: $dark;
+      font-size: 2.7em;
+    }
 
+    h4 {
+      color: $tell-gray;
+      font-size: 1.5em;
+    }
 
-  h3 {
-    color: $dark;
-    font-size: 2.7em;
-  }
+    p{
+      color: lighten( $tell-gray, 20% );
+      margin-bottom: 2em;
+    }
 
-  h4 {
-    color: $tell-gray;
-    font-size: 1.5em;
-  }
-
-  p{
-    color: lighten( $tell-gray, 20% );
-    margin-bottom: 2em;
-  }
-
-  @media #{$large-up} {
-  .beats-student-banner-tekst {
-    margin-top: 5em;
-  }
-} // @media
-
-
+    @media #{$large-up} {
+    .beats-student-banner-tekst {
+      margin-top: 5em;
+    }
+  } // @media
 }
 
 
 
 #studentpriser-mac {
   text-align: center;
-  margin: 5em 0;
 
 
   h2 {
