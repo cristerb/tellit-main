@@ -1,91 +1,4 @@
 
-
-#student-hero {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  background-color: $tell-light-light-gray;
-  padding: 1em 2em 4em 2em;
-
-
-  img {
-    margin-bottom: 0.8em;
-  }
-
-  p {
-    margin-bottom: 2.5em;
-  }
-
-
-  h1, h2 {
-    margin-bottom: 0.6em;
-  }
-
-
-  @media #{$medium-up} {
-    p {
-
-      max-width: 65%;
-    }//p
-  }//@media
-}//student-hero
-
-
-
-.action-banner {
-  text-align: center;
-  padding: 9em 0;
-  background-attachment: fixed;
-  background-image: url(../../img/student/student-rabatt-bg.jpg);
-  background-repeat: no-repeat;
-  background-position: center left;
-  border-bottom: solid 1px $tell-light-gray;
-
-
-    img {
-      margin-right: 1.2em;
-      padding-bottom: 1.1em;
-    }
-
-  p {
-    max-width: 600px;
-    margin: 0 auto;
-  }
-
-    h3 {
-      color: $tell-gray;
-      font-size: 2.2em;
-      margin: 0.6em 0 0.5em 0;
-      display: inline-block;
-      background: rgba(255, 255, 255, 0.7);
-      padding: 0.4em;
-
-    }
-
-
-}//action-banner
-
-
-
-#hvorfor-mac-container{
-
-  margin-top: 4em;
-
-
-  @media #{$large-up} {
-    max-width: 70%;
-  }
-
-      h3 {
-        text-align: center;
-        color: $tell-green;
-        margin-bottom: 1.6em;
-        font-size: 3em;
-      }
-}//hvorfor-mac-container
-
-
 ul.hvorfor-mac-list {
   display: flex;
   flex-direction: column;
@@ -120,28 +33,9 @@ ul.hvorfor-mac-list {
 
 
 
-.fordeler-container {
-  margin: 5em auto;
-  color: &tell-gray;
-  max-width: 1200px;
-
-  h2 {
-    color: $tell-green;
-    margin-bottom: 2em;
-    font-size: 3em;
-  }
-
-  h3 {
-    font-size: 1.5em;
-    color: black;
-  }
-
-} //fordeler-container
-
-
 
 #studentpakker-section {
-  margin: 5em 0;
+  margin: 3em 0 6em 0;
 
 
     h2 {
@@ -215,6 +109,7 @@ ul.hvorfor-mac-list {
 
 #studentpriser-mac {
   text-align: center;
+  margin-top: 6em;
 
 
   h2 {
@@ -243,5 +138,22 @@ ul.hvorfor-mac-list {
     text-decoration: none;
     opacity: 1;
   }
-
 }
+
+
+
+#hvorfor-mac-container{
+
+  margin-top: 6em;
+
+  @media #{$large-up} {
+    max-width: 70%;
+  }
+
+      h3 {
+        text-align: center;
+        color: $tell-green;
+        margin-bottom: 1.6em;
+        font-size: 3em;
+      }
+}//hvorfor-mac-container
