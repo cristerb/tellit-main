@@ -1,3 +1,4 @@
+
 .action-banner {
   text-align: center;
   padding: 3em 0;
@@ -27,4 +28,12 @@
       padding: 0.4em;
 
     }
+
+
+    @media #{$medium-up} {
+      padding: 9em 0;
+    }
+
+
+
 }//action-banner
