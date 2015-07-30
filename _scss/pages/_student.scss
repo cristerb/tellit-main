@@ -33,6 +33,10 @@
       margin-left: 20px;
     }
 
+    @media #{$medium-up} {
+      margin: 2em 0 6em 0;
+  } // @media
+
 
 } //studentpakker-section
 
@@ -99,6 +103,15 @@
     text-decoration: none;
     opacity: 1;
   }
+
+
+    @media #{$medium-up} {
+
+      margin: 5em 0 2em 0;
+
+  } // @media
+
+
 }
 
 
@@ -118,5 +131,14 @@
     font-size: 1.4em;
     color: $dark;
   }
+
+  span {
+    color: lightgray;
+    font-size: 0.6em;
+  }
+
+  @media #{$medium-up} {
+    margin: 6.2em 0 2em 0;
+} // @media
 
 }//hvorfor-mac
