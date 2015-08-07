@@ -68,9 +68,10 @@ Thumbs.db
 _site
 css
 
-# Vendor scss #
+# Vendor #
 ######################
 _scss/vendor
+js/vendor
 
 
 # Node #
