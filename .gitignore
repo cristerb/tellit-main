@@ -68,6 +68,11 @@ Thumbs.db
 _site
 css
 
+# Vendor scss #
+######################
+_scss/vendor
+
+
 # Node #
 ######################
 # Logs
