@@ -2,35 +2,41 @@
 /* ###  ANBAFALTE PRODUKTER  #### */
 
 
-#anbefalt-container {
-  margin: 40px 0;
-  
-  
+#nyheter-container {
+  margin: 60px 0;
+
+
   h3 {
-    text-align: center;
+    text-align: left;
     margin-bottom: 30px;
   }
- 
+
 
 
 
   .product {
-   // border: 1px solid $tell-light-gray;
+
+    background-color: $product-bg;
     text-align: center;
-    overflow: hidden;
-    transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
+    padding: 1.2em 0 2.2em 0;
 
 
-      &:hover {opacity: 0.7;}
+      h4 {
+        font-size: 1.2em;
+        color: $dark;
+      }
 
-      figcaption {color: $tell-green;}
+      p {
+        font-size: 1em;
+        margin-bottom: 1.6em;
+      }
+
+
   }//product
 }//anbefalt-container
-  
-  
-  
+
+
+
 
 /*.new {
   background-image: url("../img/home/anbefalt-produkter/nyhet-badge.png");
