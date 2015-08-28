@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  
+
   a {
     margin-right: 0.4em;
     margin-bottom: 1em;
@@ -17,12 +17,12 @@
   padding: 5em 1em;
   margin: auto;
 
-  
+
     h2 {  //Kontakt-info H2
-      margin-bottom: 0.5em;   
-      color: black; 
+      margin-bottom: 0.5em;
+      color: black;
     }
-  
+
 
   @media #{$small-only} {  // Gjelder kun på mobil
    h2 {font-size: 1.8em;}  // Kontakt-info H2 kun på mobil - Dette er tekster som Finn oss og Følg oss.
@@ -54,13 +54,13 @@ address {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(../../img/kontakt/tell-butikken@2x.jpg);
+  background-color: $tell-light-gray;
   background-size: cover;
   background-position: top center;
   min-height: 300px;
   text-align: center;
-  
-  
+
+
   h1 {
     color: white;
     font-size: 4.5em;
@@ -76,26 +76,22 @@ address {
   background-color: $tell-light-gray;
   padding: 0.5em;
   line-height: 0.2em;
-  
+
     h3 {
       font-size: 1.9em;
       color: $tell-gray;
       padding-right: 1em;
       border-right: solid 1px $tell-gray;
     }
-  
+
    p {
      padding-left: 1.5em;
      margin-top: 1em;
      }
-  
-  
+
+
      @media #{$small-only} {
        h3 {font-size: 1em;}
        p  {font-size: 0.8em;}
   }//@media
 }//apningstider
-
-
-
-
