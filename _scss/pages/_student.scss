@@ -1,41 +1,7 @@
 
-ul.hvorfor-mac-list {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-
-
-
-  @media #{$medium-up} {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    text-align: left;
-    }//@media
-
-      h4 {
-        color: black;
-        font-size: 1.25em;
-      }
-
-
-      li {
-        padding: 0 1em;
-        margin-bottom: 2em;
-        list-style: none;
-
-
-        @media #{$medium-up} {
-          flex-basis: 45%;
-        }
-  }//li
-}//ul.hvorfor-mac-list
-
-
-
-
+// STUDENTPAKKER
 #studentpakker-section {
-  margin: 3em 0 6em 0;
+  margin: 0 0 3em 0;
 
 
     h2 {
@@ -67,19 +33,18 @@ ul.hvorfor-mac-list {
       margin-left: 20px;
     }
 
+    @media #{$medium-up} {
+      margin: 2em 0 6em 0;
+  } // @media
 
-    .studentpakker-tekst{
-      margin-top: 1em;
-      display: inline-block;
-      margin: 0 auto;
-    }
 
 } //studentpakker-section
 
 
+// BEATS BANNER
 .beats-student-banner {
   background-color: $light-bg;
-  padding: 6em 0;
+  padding: 3em 0;
   text-align: center;
 
 
@@ -106,10 +71,10 @@ ul.hvorfor-mac-list {
 }
 
 
-
+// STUDENTPRISER MAC
 #studentpriser-mac {
   text-align: center;
-  margin-top: 6em;
+  margin-top:3em;
 
 
   h2 {
@@ -129,7 +94,7 @@ ul.hvorfor-mac-list {
   p {
     font-size: 0.9em;
     margin-bottom: 0.2em;
-    opacity: 0.4;
+    opacity: 0.6;
   }
 
   .studentpris {
@@ -138,22 +103,42 @@ ul.hvorfor-mac-list {
     text-decoration: none;
     opacity: 1;
   }
+
+
+    @media #{$medium-up} {
+
+      margin: 5em 0 2em 0;
+
+  } // @media
+
+
 }
 
 
+// HVORFOR MAC
+#hvorfor-mac{
 
-#hvorfor-mac-container{
+  margin-top: 4em;
 
-  margin-top: 6em;
-
-  @media #{$large-up} {
-    max-width: 70%;
+  h3 {
+    text-align: center;
+    color: $tell-green;
+    margin-bottom: 1.6em;
+    font-size: 2.6em;
   }
 
-      h3 {
-        text-align: center;
-        color: $tell-green;
-        margin-bottom: 1.6em;
-        font-size: 3em;
-      }
-}//hvorfor-mac-container
+  h4 {
+    font-size: 1.4em;
+    color: $dark;
+  }
+
+  span {
+    color: lightgray;
+    font-size: 0.6em;
+  }
+
+  @media #{$medium-up} {
+    margin: 6.2em 0 2em 0;
+} // @media
+
+}//hvorfor-mac

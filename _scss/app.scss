@@ -5,6 +5,8 @@
      @import "settings";
 
 
+
+
 //   @import "foundation";
 
 //   Or selectively include components
@@ -61,11 +63,11 @@
      // MODULES
      @import "modules/main-hero";
      @import "modules/nyhetesbrev";
-     @import "modules/tjenester";
      @import "modules/knapper";
-     @import "modules/anbefalt-produkter";
-     @import "modules/home-banner-bottom";
+     @import "modules/home-nyheter";
      @import "modules/footer";
      @import "modules/header";
      @import "modules/page-header";
      @import "modules/action-banner";
+     @import "modules/event";
+     @import "modules/sub-hero";
