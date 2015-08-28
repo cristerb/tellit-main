@@ -2,8 +2,8 @@
 
 footer {
   padding: 90px 0 40px 0;
-  background-color: $tell-gray;
-  color: white;
+  background-color: $tell-light-gray;
+  color: $tell-gray;
 
    h4 {margin-bottom: 30px;}
 
@@ -23,15 +23,21 @@ footer {
    p.cookie {
       margin-left: 1.375rem;
 
-        a {color: white;}
+        a {color: $tell-gray;}
     }
 
 }//footer
 
 
 .footer-links a {
-  color: white;
+  color: $dark;
 }
+
+.footer-links a:hover {
+  color: $tell-green;
+}
+
+
 
 .apr-logo-footer {
   max-width: 70px;
