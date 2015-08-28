@@ -5,13 +5,13 @@
   border: 1px solid $tell-green;
   color: $tell-green;
   border-radius: 40px;
-  padding: 6px 25px; 
+  padding: 6px 25px;
   font-size: 14px;
   background: none;
   transition: all 0.4s ease;
   -webkit-transition: all 0.4s ease;
-  -moz-transition: all 0.4s ease; 
-  
+  -moz-transition: all 0.4s ease;
+
     &:hover {
       background-color: $tell-green;
       color: white;
@@ -22,10 +22,10 @@
 .solid {
   background-color: $tell-green;
   color: white;
-  
+
   &:hover {
     background-color: darken($tell-green, 6%);
   }
-  
-  
+
+
 }//solid
