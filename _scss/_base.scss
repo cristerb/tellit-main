@@ -12,6 +12,11 @@
 }
 
 
+.border-right {
+  border-right: 1px solid #f3f3f3;
+}
+
+
 .pris {
   color: $tell-green;
   font-size: 0.9em;
@@ -64,7 +69,7 @@ a img:hover {
 
 
 h1, h2, h3, h4, h5, h6 {
-  color: $tell-green;
+  color: $dark;
 }
 
 
