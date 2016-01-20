@@ -2,36 +2,27 @@
 // STUDENTPAKKER
 #studentpakker-section {
   margin: 0 0 3em 0;
+  text-align: center;
 
-
-    h2 {
-      color: $tell-green;
-      font-size: 2.7em;
-      margin-bottom: 1.7em;
-    }
 
     h3 {
       color: $tell-gray;
       font-size: 1.3em;
     }
 
-    h4 {
-     margin-left: 20px;
+    img {
+      margin-bottom: 1.4em;
+      text-align: center;
     }
 
     p{
-     margin-left: 20px;
      font-size: 1.1em;
     }
 
-    ul {
-      @include ul-med-checklist;
-
+    h4 {
+      font-size: 1.6em;
     }
 
-    li {
-      margin-left: 20px;
-    }
 
     @media #{$medium-up} {
       margin: 2em 0 6em 0;
@@ -77,11 +68,6 @@
   margin-top:3em;
 
 
-  h2 {
-      color: $tell-green;
-      font-size: 2.2em;
-    }
-
   img {
     margin-bottom: 0.7em;
   }
@@ -119,13 +105,6 @@
 #hvorfor-mac{
 
   margin-top: 4em;
-
-  h3 {
-    text-align: center;
-    color: $tell-green;
-    margin-bottom: 1.6em;
-    font-size: 2.6em;
-  }
 
   h4 {
     font-size: 1.4em;

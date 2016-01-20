@@ -23,9 +23,7 @@
   background-color: $tell-green;
   color: white;
 
-  &:hover {
-    background-color: darken($tell-green, 6%);
-  }
-
-
+    &:hover {
+      background-color: darken($tell-green, 6%);
+    }
 }//solid
